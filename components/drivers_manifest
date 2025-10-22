@@ -5,7 +5,7 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 64,
+    "total": 65,
     "components": [
       {
         "display_name": "",
@@ -241,6 +241,20 @@
         "is_ui": 1,
         "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
         "name": "Adreno_762.10",
+        "type": 2,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/1bdc/40/f0/1bdc40f0a00323c1b926b5bde8777ec0.tzst",
+        "file_md5": "1bdc40f0a00323c1b926b5bde8777ec0",
+        "file_name": "turnip_v26.0.0_R1.tzst",
+        "file_size": "3213849",
+        "id": 342,
+        "is_ui": 1,
+        "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "turnip_v26.0.0_R1",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1

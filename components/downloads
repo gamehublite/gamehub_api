@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 259,
+    "total": 260,
     "downloads": [
       {
         "name": "mono",
@@ -345,6 +345,15 @@
         "file_name": "adreno_762.10.tzst",
         "file_size": "11721623",
         "file_md5": "4e046e11d23c2f403cb85453180ccf0e"
+      },
+      {
+        "name": "turnip_v26.0.0_R1",
+        "type": 2,
+        "version": "1.0.0",
+        "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/1bdc/40/f0/1bdc40f0a00323c1b926b5bde8777ec0.tzst",
+        "file_name": "turnip_v26.0.0_R1.tzst",
+        "file_size": "3213849",
+        "file_md5": "1bdc40f0a00323c1b926b5bde8777ec0"
       },
       {
         "name": "turnip_v25.3.0_R11",

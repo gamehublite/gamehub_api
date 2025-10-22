@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total_components": 259,
+    "total_components": 260,
     "categories": [
       {
         "type": 1,
@@ -15,7 +15,7 @@
         "type": 2,
         "name": "drivers",
         "display_name": "GPU Drivers",
-        "count": 64,
+        "count": 65,
         "manifest_url": "/components/drivers_manifest"
       },
       {

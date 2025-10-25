@@ -90,6 +90,23 @@
         "is_ui": 1
       },
       {
+        "id": 345,
+        "version": "1.0.0",
+        "version_code": 1,
+        "type": 1,
+        "name": "Fex-20251025",
+        "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
+        "blurb": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
+        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
+        "file_size": "11580115",
+        "file_name": "fex-20251025.tzst",
+        "display_name": "Fex-20251025",
+        "is_base": 0,
+        "base_type": 0,
+        "is_ui": 1
+      },
+      {
         "id": 323,
         "version": "1.0.1",
         "version_code": 2,

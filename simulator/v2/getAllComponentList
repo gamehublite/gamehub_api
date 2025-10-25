@@ -1572,6 +1572,20 @@
         "version_code": 1
       },
       {
+        "display_name": "Box64-0.38",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
+        "file_md5": "7d91a3edb0b829b9359dd494754ab521",
+        "file_name": "Box64-0.38.tzst",
+        "file_size": "4279460",
+        "id": 344,
+        "is_ui": 1,
+        "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "Box64-0.38",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
         "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/bfb6b3914b8f7abb792d8acafa676861.tzst",
         "file_md5": "bfb6b3914b8f7abb792d8acafa676861",
@@ -1656,6 +1670,20 @@
         "version_code": 1
       },
       {
+        "display_name": "Fex-20251025",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
+        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7",
+        "file_name": "fex-20251025.tzst",
+        "file_size": "11580115",
+        "id": 345,
+        "is_ui": 1,
+        "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "Fex-20251025",
+        "type": 1,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
         "display_name": "",
         "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20250910.tzst",
         "file_md5": "37a75036118dc0f14ad2ae1b6e1561fc",
@@ -1713,9 +1741,9 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Resident Evil 3.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Resident.Evil.3.tzst",
         "file_md5": "bcd58042f6dad5038e6b044538aaae6a",
-        "file_name": "Resident Evil 3.tzst",
+        "file_name": "Resident.Evil.3.tzst",
         "file_size": "5631",
         "id": 310,
         "is_ui": 1,
@@ -1853,9 +1881,9 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/WRC 9.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/WRC.9.tzst",
         "file_md5": "43d05983f9cc23cd62824ada397a3503",
-        "file_name": "WRC 9.tzst",
+        "file_name": "WRC.9.tzst",
         "file_size": "331666",
         "id": 291,
         "is_ui": 1,
@@ -1979,9 +2007,9 @@
       },
       {
         "display_name": "",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Torchlight II.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Torchlight.II.tzst",
         "file_md5": "747c4ed9595726421abc7c2b9ba0c779",
-        "file_name": "Torchlight II.tzst",
+        "file_name": "Torchlight.II.tzst",
         "file_size": "202960",
         "id": 236,
         "is_ui": 1,
@@ -3644,7 +3672,7 @@
         "version_code": 1
       }
     ],
-    "total": 259
+    "total": 261
   },
   "time": "1759448660"
 }

@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 260,
+    "total": 262,
     "downloads": [
       {
         "name": "mono",
@@ -1013,6 +1013,15 @@
         "file_md5": "5ed106cce8c2b9286e5e88e1f4184465"
       },
       {
+        "name": "Box64-0.38",
+        "type": 1,
+        "version": "1.0.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.38.tzst",
+        "file_name": "Box64-0.38.tzst",
+        "file_size": "4279460",
+        "file_md5": "7d91a3edb0b829b9359dd494754ab521"
+      },
+      {
         "name": "Box64-0.37-b2",
         "type": 1,
         "version": "1.0.0",
@@ -1067,6 +1076,15 @@
         "file_md5": "a86826840ee879c662e54e9efc8f70ef"
       },
       {
+        "name": "Fex-20251025",
+        "type": 1,
+        "version": "1.0.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/fex-20251025.tzst",
+        "file_name": "fex-20251025.tzst",
+        "file_size": "11580115",
+        "file_md5": "6d24fdf3f9e18a40d99612583f97dcc7"
+      },
+      {
         "name": "Fex_20250910",
         "type": 1,
         "version": "1.0.1",
@@ -1106,8 +1124,8 @@
         "name": "Resident Evil 3",
         "type": 5,
         "version": "1.0.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Resident Evil 3.tzst",
-        "file_name": "Resident Evil 3.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Resident.Evil.3.tzst",
+        "file_name": "Resident.Evil.3.tzst",
         "file_size": "5631",
         "file_md5": "bcd58042f6dad5038e6b044538aaae6a"
       },
@@ -1196,8 +1214,8 @@
         "name": "WRC 9",
         "type": 5,
         "version": "1.0.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/WRC 9.tzst",
-        "file_name": "WRC 9.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/WRC.9.tzst",
+        "file_name": "WRC.9.tzst",
         "file_size": "331666",
         "file_md5": "43d05983f9cc23cd62824ada397a3503"
       },
@@ -1277,8 +1295,8 @@
         "name": "Torchlight II",
         "type": 5,
         "version": "1.0.0",
-        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Torchlight II.tzst",
-        "file_name": "Torchlight II.tzst",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Torchlight.II.tzst",
+        "file_name": "Torchlight.II.tzst",
         "file_size": "202960",
         "file_md5": "747c4ed9595726421abc7c2b9ba0c779"
       },

@@ -27,7 +27,7 @@ gamehub_api/
 │   └── game/
 │       └── check_user_timer  # Cloud sync timer (empty)
 ├── components/             # Component download manifests
-│   ├── box64_manifest      # Box64 emulator versions (11 items)
+│   ├── box64_manifest      # Box64 emulator versions (13 items)
 │   ├── drivers_manifest    # GPU drivers (50+ items)
 │   ├── dxvk_manifest       # DirectX to Vulkan layers
 │   ├── vkd3d_manifest      # Direct3D 12 to Vulkan
@@ -60,11 +60,13 @@ The most important files in this repository are the **component manifests**. The
 #### 1. Box64 Manifest (`components/box64_manifest`)
 **Type:** 1
 **Purpose:** Box64 and FEX emulator builds for x86_64 game emulation on ARM64 devices
-**Total Items:** 11
+**Total Items:** 13
 
 Contains versions like:
+- Box64-0.38 (4.1 MB)
 - Box64-0.37-b2 (4.3 MB)
 - Box64-0.37-b1 (4.2 MB)
+- FEX-20251025 (11.0 MB)
 - FEX-20250910 (11.6 MB)
 - FEX-20250823 (11.7 MB)
 - And older versions...
@@ -111,7 +113,7 @@ All component manifests follow this JSON structure:
     "type": 1,
     "type_name": "box64",
     "display_name": "Box64 Emulators",
-    "total": 11,
+    "total": 13,
     "components": [
       {
         "id": 327,
@@ -239,23 +241,36 @@ Empty DNS pool (allows direct Steam connections):
 2. Add new component entry to the `components` array:
    ```json
    {
-     "id": 328,
-     "name": "Box64-0.38-b1",
-     "download_url": "https://cdn.example.com/box64-0.38.tzst",
+     "id": 346,
+     "name": "Box64-0.39-b1",
+     "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/Box64-0.39-b1.tzst",
      "file_md5": "abc123...",
      "file_size": "4300000",
-     "file_name": "Box64-0.38-b1.tzst",
+     "file_name": "Box64-0.39-b1.tzst",
      "type": 1,
      "version": "1.0.0",
      "version_code": 1,
      "is_ui": 1,
-     "logo": "https://..."
+     "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png"
    }
    ```
 
 3. Update the `total` count in `data` object
 
-4. Commit and push:
+4. Update all API endpoint files that reference this component type:
+   - `components/downloads` - Add to downloads array, update total
+   - `simulator/v2/getAllComponentList` - Add to list array, update total
+   - `simulator/v2/getComponentList` - Add to list array, update total
+   - `simulator/executeScript/qualcomm` - Add to components array (if Fex/Box64)
+   - `simulator/executeScript/generic` - Add to components array (if Fex/Box64)
+
+5. Upload the component file (.tzst) to GitHub releases:
+   ```bash
+   # Go to: https://github.com/gamehublite/gamehub_api/releases/tag/Components
+   # Upload the .tzst file via the web interface
+   ```
+
+6. Commit and push:
    ```bash
    git add .
    git commit -m "Add Box64 0.38-b1"

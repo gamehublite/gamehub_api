@@ -7,10 +7,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "wine10.0-x64-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "66e25e9a8fde74e8feb4e3b2ba9f6201",
       "file_size": "163346754",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/66e2/5e/9a/wine_10.0.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_10.0.tar.zst",
       "file_name": "wine_10.0.tar.zst",
       "framework": "X64",
       "framework_type": "stable",
@@ -18,7 +18,7 @@
       "is_steam": 2,
       "sub_data": {
         "sub_file_name": "66e25e9a8fde74e8feb4e3b2ba9f6201.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/7ebf/03/65/66e25e9a8fde74e8feb4e3b2ba9f6201.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/66e25e9a8fde74e8feb4e3b2ba9f6201.tzst",
         "sub_file_md5": "7ebf0365a7fc6e5c36e159b3975fa439"
       }
     },
@@ -27,10 +27,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "wine9.16-x64-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "830a254f9b3c92aa850a502621037ae9",
       "file_size": "153061370",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/830a/25/4f/wine_9.16.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_9.16.tar.zst",
       "file_name": "wine_9.16.tar.zst",
       "framework": "X64",
       "framework_type": "stable",
@@ -38,7 +38,7 @@
       "is_steam": 2,
       "sub_data": {
         "sub_file_name": "830a254f9b3c92aa850a502621037ae9.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/7440/92/80/830a254f9b3c92aa850a502621037ae9.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/830a254f9b3c92aa850a502621037ae9.tzst",
         "sub_file_md5": "74409280a831e9841f74488cb7c1bab4"
       }
     },
@@ -47,10 +47,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "wine9.13-x64-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "7b17485af1933955f2cb82958b7d45b7",
       "file_size": "154179227",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/7b17/48/5a/wine_9.13.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_9.13.tar.zst",
       "file_name": "wine_9.13.tar.zst",
       "framework": "X64",
       "framework_type": "stable",
@@ -58,7 +58,7 @@
       "is_steam": 2,
       "sub_data": {
         "sub_file_name": "7b17485af1933955f2cb82958b7d45b7.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/40f0/8e/be/7b17485af1933955f2cb82958b7d45b7.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/7b17485af1933955f2cb82958b7d45b7.tzst",
         "sub_file_md5": "40f08ebe9849ede742d2a9b6d983698d"
       }
     },
@@ -67,10 +67,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "wine9.5-x64-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "e78be524fd1b01fb7565eb01a9fd4187",
       "file_size": "157199545",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/e78b/e5/24/wine_9.5.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_9.5.tar.zst",
       "file_name": "wine_9.5.tar.zst",
       "framework": "X64",
       "framework_type": "stable",
@@ -78,7 +78,7 @@
       "is_steam": 2,
       "sub_data": {
         "sub_file_name": "e78be524fd1b01fb7565eb01a9fd4187.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/7c88/ba/89/e78be524fd1b01fb7565eb01a9fd4187.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/e78be524fd1b01fb7565eb01a9fd4187.tzst",
         "sub_file_md5": "7c88ba89b95f7099d7b12384ed92907a"
       }
     },
@@ -87,10 +87,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "wine10.6-arm64x-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "aeb9ee7dccf887d5d543963ce823f1cc",
       "file_size": "220083873",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/aeb9/ee/7d/wine_10.6_arm64x-2.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_10.6_arm64x-2.tar.zst",
       "file_name": "wine_10.6_arm64x-2.tar.zst",
       "framework": "arm64X",
       "framework_type": "stable",
@@ -102,10 +102,10 @@
       "version": "1.0.3",
       "version_code": 4,
       "name": "proton10.0-arm64x-2",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "6dcb13706c9c7720b074ee020ce39bbc",
       "file_size": "216807973",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/6dcb/13/70/wine_proton10.0-arm64x-2.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton10.0-arm64x-2.tar.zst",
       "file_name": "wine_proton10.0-arm64x-2.tar.zst",
       "framework": "arm64X",
       "framework_type": "proton",
@@ -113,7 +113,7 @@
       "is_steam": 1,
       "sub_data": {
         "sub_file_name": "6dcb13706c9c7720b074ee020ce39bbc.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/439b/7e/c0/6dcb13706c9c7720b074ee020ce39bbc.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/6dcb13706c9c7720b074ee020ce39bbc.tzst",
         "sub_file_md5": "439b7ec0ae13685aee76a10904ebccf4"
       }
     },
@@ -122,10 +122,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "proton9.0-arm64x-3",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "2ff6952b6eec0ef881e97bde57ddc8e6",
       "file_size": "211725844",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/2ff6/95/2b/wine_proton_9.0_arm64x.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton_9.0_arm64x.tar.zst",
       "file_name": "wine_proton_9.0_arm64x.tar.zst",
       "framework": "arm64X",
       "framework_type": "proton",
@@ -133,7 +133,7 @@
       "is_steam": 1,
       "sub_data": {
         "sub_file_name": "2ff6952b6eec0ef881e97bde57ddc8e6.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/ae9d/3f/0c/ae9d3f0c04341ac4fbb933f1ce4b6409.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/ae9d3f0c04341ac4fbb933f1ce4b6409.tzst",
         "sub_file_md5": "ae9d3f0c04341ac4fbb933f1ce4b6409"
       }
     },
@@ -142,10 +142,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "proton10.0-x64-1",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "ac15e5a378b17aefd93adf360e875494",
       "file_size": "164876854",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/ac15/e5/a3/wine_proton_10.0_x64.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton_10.0_x64.tar.zst",
       "file_name": "wine_proton_10.0_x64.tar.zst",
       "framework": "X64",
       "framework_type": "proton",
@@ -153,7 +153,7 @@
       "is_steam": 1,
       "sub_data": {
         "sub_file_name": "ac15e5a378b17aefd93adf360e875494.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape/pc_zst/751b/2e/c4/751b2ec403b86ddd7357206f7a85b301.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/751b2ec403b86ddd7357206f7a85b301.tzst",
         "sub_file_md5": "751b2ec403b86ddd7357206f7a85b301"
       }
     },
@@ -162,10 +162,10 @@
       "version": "1.0.0",
       "version_code": 1,
       "name": "proton9.0-x64-3",
-      "logo": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/game-image/45e6/0d/21/45e60d211d35955bd045aabfded4e64b.png",
+      "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
       "file_md5": "83b3a2a16f7d643ce366c8ad686cbcf7",
       "file_size": "156893611",
-      "download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/83b3/a2/a1/wine_proton_9.0_x64.tar.zst",
+      "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/wine_proton_9.0_x64.tar.zst",
       "file_name": "wine_proton_9.0_x64.tar.zst",
       "framework": "X64",
       "framework_type": "proton",
@@ -173,7 +173,7 @@
       "is_steam": 1,
       "sub_data": {
         "sub_file_name": "83b3a2a16f7d643ce366c8ad686cbcf7.tzst",
-        "sub_download_url": "https://zlyer-cdn-comps-en.bigeyes.com/ux-landscape-test/pc_zst/6f41/b9/c1/83b3a2a16f7d643ce366c8ad686cbcf7.tzst",
+        "sub_download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/83b3a2a16f7d643ce366c8ad686cbcf7.tzst",
         "sub_file_md5": "6f41b9c15b5bc97a0365b65da2b7545f"
       }
     }

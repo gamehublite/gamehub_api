@@ -193,7 +193,7 @@ Added X new drivers (IDs: 336, 337, 338)
 - Updated components/downloads: 256 → 259
 - Updated simulator/v2/getAllComponentList: 256 → 259
 
-🤖 Generated with Claude Code"
+"
 
 git push
 ```
@@ -281,4 +281,3 @@ The worker proxies these URLs with caching.
 ---
 
 **Last Updated:** October 2025
-**Maintained By:** Owen

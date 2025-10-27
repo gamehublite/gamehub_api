@@ -9,7 +9,7 @@ The GameHub app uses a static API hosted on GitHub to serve component informatio
 ## Prerequisites
 
 - HAR file from HTTP Toolkit capturing GameHub API traffic
-- Access to `/Users/owen/Downloads/gamehub_api/` repository
+- Access to `/Users/ghlite/Downloads/gamehub_api/` repository
 - `jq` command-line tool for JSON processing
 
 ## Step 1: Extract New Components from HAR File
@@ -17,7 +17,7 @@ The GameHub app uses a static API hosted on GitHub to serve component informatio
 ### Find the HAR File
 HAR files are typically stored in:
 ```
-/Users/owen/Desktop/dec/HAR/
+/Users/ghlite/Desktop/dec/HAR/
 ```
 
 ### Extract Components by Type
@@ -44,7 +44,7 @@ jq -r '.log.entries[].response.content.text' /path/to/file.har | \
 ```bash
 # Extract existing drivers from manifest
 jq -r '.data.components[] | "\(.id)|\(.name)|\(.file_md5)|\(.file_size)"' \
-  /Users/owen/Downloads/gamehub_api/components/drivers_manifest | \
+  /Users/ghlite/Downloads/gamehub_api/components/drivers_manifest | \
   sort -t'|' -k1,1n > /tmp/manifest_drivers.txt
 
 # Find differences (new drivers)
@@ -56,7 +56,7 @@ diff /tmp/manifest_drivers.txt /tmp/har_drivers.txt
 When adding new components, you MUST update these files:
 
 ### 1. Component-Specific Manifest
-**Path:** `/Users/owen/Downloads/gamehub_api/components/{type}_manifest`
+**Path:** `/Users/ghlite/Downloads/gamehub_api/components/{type}_manifest`
 
 Example for drivers: `components/drivers_manifest`
 
@@ -85,7 +85,7 @@ Example for drivers: `components/drivers_manifest`
 **Important:** Group similar components together (e.g., turnip with turnip, 8Elite with 8Elite)
 
 ### 2. Components Index
-**Path:** `/Users/owen/Downloads/gamehub_api/components/index`
+**Path:** `/Users/ghlite/Downloads/gamehub_api/components/index`
 
 **What to update:**
 - Update `"total_components"` (e.g., 256 → 259)
@@ -107,7 +107,7 @@ Example for drivers: `components/drivers_manifest`
 ```
 
 ### 3. Downloads File
-**Path:** `/Users/owen/Downloads/gamehub_api/components/downloads`
+**Path:** `/Users/ghlite/Downloads/gamehub_api/components/downloads`
 
 **What to update:**
 - Update `"total"` count (e.g., 256 → 259)
@@ -128,7 +128,7 @@ Example for drivers: `components/drivers_manifest`
 ```
 
 ### 4. Get All Component List (CRITICAL!)
-**Path:** `/Users/owen/Downloads/gamehub_api/simulator/v2/getAllComponentList`
+**Path:** `/Users/ghlite/Downloads/gamehub_api/simulator/v2/getAllComponentList`
 
 **What to update:**
 - Update `"total"` count in TWO places (top and bottom of file)
@@ -154,7 +154,7 @@ Example for drivers: `components/drivers_manifest`
 ### Verify Component Counts
 ```bash
 # Check total matches count
-cd /Users/owen/Downloads/gamehub_api
+cd /Users/ghlite/Downloads/gamehub_api
 
 # For drivers_manifest
 jq '.data.total, (.data.components | length)' components/drivers_manifest
@@ -182,7 +182,7 @@ jq '.data.list[] | select(.type == 2)' components/downloads | jq -s length
 ## Step 4: Push Changes to GitHub
 
 ```bash
-cd /Users/owen/Downloads/gamehub_api
+cd /Users/ghlite/Downloads/gamehub_api
 
 git add .
 git commit -m "Add new components: [list component names]
@@ -200,7 +200,7 @@ git push
 
 ## Step 5: Worker (Optional)
 
-The Cloudflare Worker at `/Users/owen/Desktop/dec/worker/src/index.ts` proxies requests to the GitHub static API.
+The Cloudflare Worker at `/Users/ghlite/Desktop/dec/worker/src/index.ts` proxies requests to the GitHub static API.
 
 **Cache Settings:**
 - 5-minute cache (`cacheTtl: 300`)
@@ -222,7 +222,7 @@ The Cloudflare Worker at `/Users/owen/Desktop/dec/worker/src/index.ts` proxies r
 **Cause:** Forgot to update total in one of the files
 **Fix:** Search for old total and update all occurrences:
 ```bash
-cd /Users/owen/Downloads/gamehub_api
+cd /Users/ghlite/Downloads/gamehub_api
 grep -r "\"total\": 256" .
 # Or for specific category:
 grep -r "\"count\": 61" .

@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 262,
+    "total": 263,
     "downloads": [
       {
         "name": "mono",
@@ -345,6 +345,15 @@
         "file_name": "adreno_762.10.tzst",
         "file_size": "11721623",
         "file_md5": "4e046e11d23c2f403cb85453180ccf0e"
+      },
+      {
+        "name": "qcom-849.0",
+        "type": 2,
+        "version": "1.0.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/qcom-849.tzst",
+        "file_name": "qcom-849.tzst",
+        "file_size": "12584954",
+        "file_md5": "a103453b4e5aef0db45845a813745a44"
       },
       {
         "name": "turnip_v26.0.0_R1",

@@ -5,7 +5,7 @@
     "type": 2,
     "type_name": "drivers",
     "display_name": "GPU Drivers",
-    "total": 66,
+    "total": 67,
     "components": [
       {
         "display_name": "",
@@ -255,6 +255,20 @@
         "is_ui": 1,
         "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
         "name": "qcom-849.0",
+        "type": 2,
+        "version": "1.0.0",
+        "version_code": 1
+      },
+      {
+        "display_name": "",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v26.0.0_R2.tzst",
+        "file_md5": "822e423fb4a7d8185b342fc641bdfa22",
+        "file_name": "turnip_v26.0.0_R2.tzst",
+        "file_size": "3168214",
+        "id": 347,
+        "is_ui": 1,
+        "logo": "https://github.com/gamehublite/gamehub_api/releases/download/Components/45e60d211d35955bd045aabfded4e64b.png",
+        "name": "turnip_v26.0.0_R2",
         "type": 2,
         "version": "1.0.0",
         "version_code": 1

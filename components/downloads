@@ -2,7 +2,7 @@
   "code": 200,
   "msg": "Success",
   "data": {
-    "total": 263,
+    "total": 264,
     "downloads": [
       {
         "name": "mono",
@@ -354,6 +354,15 @@
         "file_name": "qcom-849.tzst",
         "file_size": "12584954",
         "file_md5": "a103453b4e5aef0db45845a813745a44"
+      },
+      {
+        "name": "turnip_v26.0.0_R2",
+        "type": 2,
+        "version": "1.0.0",
+        "download_url": "https://github.com/gamehublite/gamehub_api/releases/download/Components/turnip_v26.0.0_R2.tzst",
+        "file_name": "turnip_v26.0.0_R2.tzst",
+        "file_size": "3168214",
+        "file_md5": "822e423fb4a7d8185b342fc641bdfa22"
       },
       {
         "name": "turnip_v26.0.0_R1",
